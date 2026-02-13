@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <h2>java script arrays</h2>
+    <h2>join() and pop()</h2>
+    <p>the join ()method joinsnarray element ]s into a string and the pop() method removes the last element from n array</p>
+    <p id="myjoin"></p>
+     <p id="myfirstpop"></p>
+     <p id="mysecondpop"></p>
+     <script>
+        var fruits = ["banana","Orange","Apple","mango"]
+        document.getElementById("myjoin").innerHTML = fruits.join(" * ");
+       document.getElementById("myfirstpop").innerHTML = fruits;
+       fruits.pop();
+       document.getElementById("mysecondpop").innerHTML = fruits
+     </script>
+</body>
+</html>
