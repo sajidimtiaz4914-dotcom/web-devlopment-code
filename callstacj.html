@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>javascript functions</h2>
+    <p>do a calculation and then display the result.</p>
+    <p id="demo"></p>
+    <script>
+        function add(a,b) {
+            return a  +  b;
+        }
+        function average(a,b) {  
+            return add(a,b) / 2;
+        }
+        let result = average(10,20);
+        document.getElementById("demo").innerHTML = result;
+    </script>
+    
+</body>
+</html>
